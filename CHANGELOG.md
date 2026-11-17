@@ -17,7 +17,6 @@ PR title prefix matches the highest-tier label added:
 
 ## Unreleased
 
-- [INTERNAL] The licence changes from MIT to Apache-2.0, with a NOTICE file. Releases published before this change keep the MIT licence they shipped with; only new releases carry Apache-2.0.
 ### [BREAKING]
 
 - None.
@@ -32,6 +31,7 @@ PR title prefix matches the highest-tier label added:
 
 ### [INTERNAL]
 
+- The licence changes from MIT to Apache-2.0, with a NOTICE file. Releases published before this change keep the MIT licence they shipped with; only new releases carry Apache-2.0.
 - `docs/CONTRIBUTING.md` now says issues are welcome and outside pull requests are not accepted for now; snippet ideas go in an issue.
 - The MIT `LICENSE` now names SureForgeTech as the copyright holder; the licence text is unchanged.
 - Refresh the generated fleet core; preserve repository-specific instructions.
