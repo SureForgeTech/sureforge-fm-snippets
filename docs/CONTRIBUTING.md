@@ -2,7 +2,18 @@
 
 ## How to Contribute
 
-Issues are welcome: bug reports, questions and ideas, including new snippets or improvements to existing ones. Pull requests from outside contributors are not accepted for now: the maintainers write all changes themselves, so every change is written and reviewed by the maintainers. A pull request from outside may be closed without review. Open an issue instead.
+Issues and pull requests are both welcome. For anything larger than a small fix,
+open or comment on an issue first so we agree on the approach.
+
+Sign off every commit with `git commit -s`. This adds a `Signed-off-by:` line
+certifying the [Developer Certificate of Origin](https://developercertificate.org/):
+you wrote the change or have the right to submit it under the licence in this
+repository's `LICENSE` file, and your contribution comes under that licence. A
+check confirms the sign-off on pull requests from outside contributors. Every
+pull request gets review and must pass the required checks before a maintainer
+merges it.
+
+New snippets and improvements to existing ones are welcome as an issue or a pull request.
 
 - **Proposing a snippet:** open an issue with the FileMaker function name, the trigger keyword you suggest and what the snippet should do (not the snippet text itself), following the guidelines below.
 - **Writing a good issue:** see the [SureForgeTech contributing guide](https://github.com/SureForgeTech/.github/blob/main/CONTRIBUTING.md).
