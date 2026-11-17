@@ -39,4 +39,4 @@ For a full list and usage guide, see [USAGE.md](docs/USAGE.md).
 Want to add a snippet or improve an existing one? See [CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
