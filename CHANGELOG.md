@@ -31,6 +31,7 @@ PR title prefix matches the highest-tier label added:
 
 ### [INTERNAL]
 
+- `docs/CONTRIBUTING.md` now says issues are welcome and outside pull requests are not accepted for now; snippet ideas go in an issue.
 - Refresh the generated fleet core; preserve repository-specific instructions.
 
 - Add `AGENTS.md` (fleet agent-file standard) and a `CLAUDE.md` that imports it.
