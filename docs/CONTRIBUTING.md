@@ -13,9 +13,11 @@ check confirms the sign-off on pull requests from outside contributors. Every
 pull request gets review and must pass the required checks before a maintainer
 merges it.
 
+CodeRabbit (free open-source plan) may comment on pull requests. Its reviews are advice only and never required. On repositories with fewer than 10 stars it does not run on its own; comment `@coderabbitai review` to trigger it.
+
 New snippets and improvements to existing ones are welcome as an issue or a pull request.
 
-- **Proposing a snippet:** open an issue with the FileMaker function name, the trigger keyword you suggest and what the snippet should do (not the snippet text itself), following the guidelines below.
+- **Proposing a snippet:** open an issue with the FileMaker function name, the trigger keyword you suggest and what the snippet should do, or edit the CSV file and open a pull request, following the guidelines below.
 - **Writing a good issue:** see the [SureForgeTech contributing guide](https://github.com/SureForgeTech/.github/blob/main/CONTRIBUTING.md).
 - **Security problems:** do not report them in a public issue; follow [SECURITY.md](../SECURITY.md).
 
