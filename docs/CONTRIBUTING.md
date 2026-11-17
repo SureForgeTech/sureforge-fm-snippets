@@ -2,9 +2,9 @@
 
 ## How to Contribute
 
-Issues are welcome: bug reports, questions and ideas, including new snippets or improvements to existing ones. Pull requests from outside contributors are not accepted for now, so that the project keeps a single copyright holder; a pull request from outside may be closed without review. Open an issue instead.
+Issues are welcome: bug reports, questions and ideas, including new snippets or improvements to existing ones. Pull requests from outside contributors are not accepted for now: the maintainers write all changes themselves, so every change is written and reviewed by the maintainers. A pull request from outside may be closed without review. Open an issue instead.
 
-- **Proposing a snippet:** open an issue with the snippet's name, the trigger keyword you suggest and the snippet text, following the guidelines below.
+- **Proposing a snippet:** open an issue with the FileMaker function name, the trigger keyword you suggest and what the snippet should do (not the snippet text itself), following the guidelines below.
 - **Writing a good issue:** see the [SureForgeTech contributing guide](https://github.com/SureForgeTech/.github/blob/main/CONTRIBUTING.md).
 - **Security problems:** do not report them in a public issue; follow [SECURITY.md](../SECURITY.md).
 
