@@ -31,6 +31,7 @@ PR title prefix matches the highest-tier label added:
 
 ### [INTERNAL]
 
+- The MIT `LICENSE` now names SureForgeTech as the copyright holder; the licence text is unchanged.
 - Refresh the generated fleet core; preserve repository-specific instructions.
 
 - Add `AGENTS.md` (fleet agent-file standard) and a `CLAUDE.md` that imports it.
