@@ -36,9 +36,24 @@ New snippets and improvements to existing ones are welcome as an issue or a pull
 - Snippets should use standard Claris FileMaker syntax exactly as it appears in the official documentation (e.g., matching capitalization and spacing).
 - Include optional parameters enclosed in curly braces `{}` where appropriate, mimicking FileMaker's calculation dialog auto-complete format.
 
-## For Maintainers
+## Maintaining the Snippets & Bundle
 
 All snippet data is maintained in the CSV file `data/FileMaker_Functions_Alfred_Snippets.csv`; make additions and changes there.
 
 ### Regenerating the Alfred Bundle
-If you are a maintainer, you can generate a new `.alfredsnippets` file by importing the updated CSV into an Alfred collection, exporting the collection, and committing the new binary file to the repository.
+The `.alfredsnippets` bundle is generated directly from the source CSV using `tools/build-bundle.py`:
+
+```bash
+# Validate CSV and regenerate FileMaker_Functions.alfredsnippets:
+python tools/build-bundle.py
+
+# Verify CSV and bundle parity (enforced in CI):
+python tools/build-bundle.py --check
+```
+
+Always stage and commit both `data/FileMaker_Functions_Alfred_Snippets.csv` and `FileMaker_Functions.alfredsnippets` together in your pull request so the CI parity check succeeds.
+
+The script automatically:
+- Validates that Name, Category, and Snippet are not empty.
+- Verifies that trigger keywords start with `;fm`, are lowercase, and are unique.
+- Preserves existing UIDs for unchanged snippets so Alfred snippet collections update cleanly in place without duplicates.

@@ -31,6 +31,7 @@ PR title prefix matches the highest-tier label added:
 
 ### [INTERNAL]
 
+- Add `tools/build-bundle.py` build script and CI parity workflow to generate `.alfredsnippets` from CSV with schema linting (#4).
 - Pull requests are now welcome with a DCO sign-off (`git commit -s`): `CONTRIBUTING.md` says so, and a new `dco` workflow checks the sign-off on pull requests from outside contributors.
 - The licence changes from MIT to Apache-2.0, with a NOTICE file. Releases published before this change keep the MIT licence they shipped with; only new releases carry Apache-2.0.
 - `docs/CONTRIBUTING.md` now says issues are welcome and outside pull requests are not accepted for now; snippet ideas go in an issue.
